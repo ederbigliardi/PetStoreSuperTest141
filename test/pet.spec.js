@@ -8,11 +8,11 @@ describe('API PetStore Swagger - Entidade Pet', () => {
 
     // Atributos do grupo/describe
     const request = supertest('https://petstore.swagger.io/v2') // BaseURL
-    
+
     // Funções ou métodos: its
     it('POST Pet', () => {
         // Atributos, Campos, Características, Configurações
-        
+
         // Funções de apoio (Opcional)
 
         // Funções de Teste em Si
