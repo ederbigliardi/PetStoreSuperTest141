@@ -15,10 +15,10 @@ describe('API PetStore Swagger - Entidade Pet', () => {
     it('POST Pet', async () => {
 
         // Atributos, Campos, Características, Configurações
-        const pet = await require('../../vendors/json/pet.json')
+        const pet = require('../../vendors/json/pet.json')
 
         // Função de teste em si
-        return await request
+        return request
             .post('/pet')
             .send(pet)
             .then((res) => {
